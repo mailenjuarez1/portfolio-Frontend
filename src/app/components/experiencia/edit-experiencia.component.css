@@ -1,0 +1,14 @@
+.container{
+    padding: 4rem;
+}
+.form-group{
+    padding: 2rem;
+}
+#btn{
+    padding: 2rem;
+}
+button {
+    background-color: #af5fda;
+    color: aliceblue;
+    border: 2px solid #d082e8; 
+}

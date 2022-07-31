@@ -1,0 +1,5 @@
+div {
+    display: flex;
+    justify-content: space-between;
+    background-image:linear-gradient(to right, #320849, #320849, rgb(110, 38, 146));
+}

@@ -1,0 +1,28 @@
+#skills{
+    width: auto;
+    padding: 1rem;
+}
+h2 {
+    margin-top: 2rem;
+    color: aliceblue;
+    text-align: center;
+}
+#grilla-skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+.circulos {
+    margin: 1rem;
+    padding: 2rem;
+}
+@media screen and (max-width: 1020px) {
+    #grilla-skills {
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 760px) {
+    #grilla-skills {
+        grid-template-columns: auto;
+    }
+}

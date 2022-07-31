@@ -1,0 +1,18 @@
+.card-log {
+    background-color: rgb(38,38,38);
+    border: 3px solid #ca62ea;
+    color: aliceblue;
+}
+.btn{
+    border: 2px solid #d082e8; 
+}
+.gradient-custom {
+/* fallback for old browsers */
+background:#320849;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(66, 5, 131), #320849);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgb(66, 5, 131), #320849)
+}
