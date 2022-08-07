@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Route, Router } from '@angular/router';
-import { subscribeOn } from 'rxjs';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Educacion } from 'src/app/model/educacion';
 import { EducacionService } from 'src/app/service/educacion.service';
 
@@ -15,7 +14,7 @@ export class EditeducationComponent implements OnInit {
   constructor(
     private educationS: EducacionService,
     private activatedRouter: ActivatedRoute,
-    private router: Router,
+    private router: Router
     ) { }
 
   ngOnInit(): void {
@@ -37,7 +36,7 @@ export class EditeducationComponent implements OnInit {
         this.router.navigate(['']);
       }, err => {
         alert("Error al modificar.");
-        this.router.navigate([''])
+        this.router.navigate(['']);
       }
     )
   }
